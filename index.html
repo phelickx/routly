@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <script>
+      
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+  
+      .slide {
+        display: none;
+       
+      }
+       body {
+         background-color: #DADAF9;
+         font-family: 'outfit', sans-serif;
+       }
+       ellipse {
+        position: absolute;
+        width: 1424px;
+        height: 1424px;
+        left: -385px;
+        top: -221px;
+
+        background: #EDECFF;
+       }
+       nav {
+    
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         padding: 0;
+         font-size: 12px;
+         color: rgb(37, 36, 36);
+       }
+       .nav-ul {
+           display: flex;
+           list-style-type: none;
+           align-items: center;
+           justify-content: center;
+           padding: 0;
+           margin-top: 20px;
+       }
+       .nav-ul li a {
+           display: inline-block;
+           padding: 10px 20px;
+           text-decoration: none;
+           color: rgb(20, 20, 20);
+       }
+       .home {
+         margin-left: 20px;
+       }
+       .bb {
+         background-color: #9B99FF;
+         color: white;
+         padding: 10px 50px;
+         border-radius: 6px;
+         margin: 5px;
+       }
+       .bbs {
+         border: 1px solid #9B99FF;
+         background-color: #9b99ff03;
+         color:  #9B99FF;
+         padding: 7px 50px;
+         border-radius: 6px;
+         margin: 5px;
+       }
+       .nvb {
+         background: rgba(237, 236, 255, 0.02);
+         backdrop-filter: blur(25px);
+         -webkit-backdrop-filter: blur(25px);
+         z-index: 100;
+       }
+       .home {
+        background: linear-gradient(179.88deg, #9B99FF -50.63%, rgba(237, 236, 255, 0) 99.89%);
+         display: inline-block;
+        
+         padding-top: 30px;
+         position: absolute;
+          width: 70px;
+          height: 80px;
+          text-align: center;
+          top: 0px;
+          color: white;
+
+       }
+       .home-1 {
+         color: rgb(2, 2, 2);
+       }
+       header {
+         height: 800px;
+         background-image: url("img/header-bg.svg");
+         background-size: cover;
+       }
+       .hamburger {
+         background: transparent;
+         color: #9B99FF;
+         display: none;
+         cursor: pointer;
+         border: 0;
+         font-size: 20px;
+       }
+       .slide ul li {
+           text-decoration: none;
+         }
+         .main h2 {
+           font-size: 3em;
+           margin-top: 80px;
+           padding: 20px;
+           color: black;
+         }
+         .cf {
+           color: #9B99FF;
+           font-weight: bold;
+         }
+        
+         input {
+           position: relative;
+           display: inline-block;
+           font-size: 20px;
+           box-sizing: border-box;
+           transition: 0.5s;
+           -webkit-transition: .5s;
+           margin-left: 20px;
+         }
+         input[type="text"] {
+          background: #EDECFF;
+         margin-top: 8px;
+          border-radius: 8px;
+          height: 40px;
+          width: 67%;
+          border: none;
+          outline: none;
+          padding: 0 5px;
+          font-size: 14px;
+          color: #B6B4D8;
+         }
+          input[type="submit"] {
+          background: #9B99FF;
+          height: 40px;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          padding: 0 25px;
+          font-size: 14px;
+          color: white;
+         }
+         .forms {
+          background: #EDECFF;
+          box-shadow: 5px 7px 16px rgba(0, 0, 0, 0.17);
+          border-radius: 15px;
+          height: 55px;
+          width: 100%;
+          border: none;
+          outline: none;
+         }
+         .ss {
+           margin-top: 120px;
+         }
+       @media screen and (max-width: 767px) {
+        input[type="text"] {
+          background: #EDECFF;
+         margin-top: 8px;
+          border-radius: 8px;
+          height: 40px;
+          width: 54%;
+          border: none;
+          outline: none;
+          padding: 0 5px;
+          font-size: 14px;
+          color: #B6B4D8;
+         }
+          input[type="submit"] {
+          background: #9B99FF;
+          height: 40px;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          padding: 0 25px;
+          font-size: 14px;
+          color: white;
+         }
+         .nav-ul {
+           display: none;
+         }
+         .slide ul li {
+           text-decoration: none;
+         }
+         .slide ul li a {
+           color: #4d4c89;
+           font-weight: 500;
+           padding: 5px 0;
+           display: block;
+           text-transform: capitalize;
+           text-decoration: none;
+           transition: 0.2s ease-out;
+         }
+         .slide ul li a i{
+           width: 40px;
+           text-align: center;
+         }
+         .slide ul li {
+           list-style: none;
+           padding: 15px 0;
+         }
+          .slide.bb{
+            margin-top: 550px;
+          }
+         .nvb {
+           padding: 23px;
+         }
+         .hamburger {
+           display: block;
+         }
+       
+        .slide.show {
+          display: block;
+          top: -0px;
+          height: 100%;
+          width: 75%;
+          background: rgba(237, 236, 255, 0.02);
+          box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.05);
+          backdrop-filter: blur(25px);
+          -webkit-backdrop-filter: blur(25px);
+          transition: 0.5s ease-in;
+          text-decoration: none;
+          transform: translateX(0);
+         
+          z-index: 2000;
+          position: absolute;
+      }
+      .ss {
+           margin-top: 0;
+         }
+         .car {
+           margin-top: -200px;
+         }
+       }
+    </style>
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <header>
+
+     
+       <div class="nvb fixed-top">
+           <div class="container">
+              <nav>
+                <div class="nav-brand">
+                  <img src="img/routly.svg" width="70px" alt="routly logo">
+                  <div class="home"><a class="home-1" href="#">Home</a></div>
+                </div>
+               
+                <button class="hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+                </button>
+                  <ul class="nav-ul">
+                    <li class="data"><a href="">About Us</a></li>
+                    <li class="data"><a href="">Our Services</a></li>
+                    <li class="data"><a href="">Contact Us</a></li>
+                    <a class="bb" href="register.php">Register</a> 
+                  </ul>   
+  
+              </nav>
+           </div>
+          </div>
+          <div class="slide" id="nav-ul">
+            <img src="img/routly.svg" width="70px" alt="routly logo" style="margin: 25px 40px;">
+            <br>
+            <br>
+            <ul class="">
+              <li class="data"><a href=""><i class="fas fa-home"></i> Home</a></li>
+              <li class="data"><a href=""><i class="fas fa-fire"></i>About Us</a></li>
+              <li class="data"><a href=""><i class="fas fa-tools"></i>Our Services</a></li>
+              <li class="data"><a href=""><i class="fas fa-phone"></i>Contact Us</a></li>
+              
+            </ul>  
+            <br>
+            <a style="margin-left: 30px;" class="bb" href="register.php">Register</a> 
+            <br>
+            <br>
+            <a style="margin-left: 30px;" class="bbs" href="register.php">Login</a>
+          </div>
+          <div class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                      <br>
+                      <br>
+                      <br>
+                         <div class="heading">
+                             <h2>Ride with <span class="cf">style</span> and<br>arrive with <span class="cf">ease</span><br>with <img src="img/routlypadded.svg" width="100px"></h2>
+                            <div class="box">
+                              <form class="forms">
+                                <input type="text" name="" placeholder="Enter you email to book a ride">
+                                <input type="submit" value="Book a ride">
+                             </form>
+                            </div>
+                            <div class="road"> 
+                              <img src="img/road.svg" alt="road" class="card-img-top">
+                            </div>
+                            <div class="map" style="margin: auto; width: 50%;">
+                              <img src="img/Map.gif" alt="map" class="" width="200px" style="margin-top: -500px;">
+                            </div>
+                         </div>
+                    </div>
+                    <div class="col-md-5">
+                       <div class="car">
+                           <img src="img/car.png" alt="routly car" class="card-img-top ss">
+                       </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+   
+   
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript">
+         const hamburger = document.getElementById('hamburger');
+       const navUL = document.getElementById('nav-ul');
+
+       hamburger.addEventListener('click', () => {
+           navUL.classList.toggle('show');
+       })
+    </script>
+  </body>
+</html>
